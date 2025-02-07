@@ -1,12 +1,15 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 
+
 @Component({
-    selector: 'app-menu-bar',
-    templateUrl: './menu-bar.component.html',
-    styleUrls: ['./menu-bar.component.scss'],
+  selector: 'app-sign-up',
+  templateUrl: './sign-up.component.html',
+  styleUrl: './sign-up.component.scss',
+
 })
-export class MenuBarComponent {
+
+export class SignUpComponent {
 
   constructor(private router: Router){
 
@@ -16,8 +19,4 @@ export class MenuBarComponent {
     this.router.navigate([path])
   }
 
-
 }
-
-  
-

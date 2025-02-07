@@ -17,8 +17,8 @@
 
     <!--Log In and Sing Up Section-->
     <div class="auth-section d-flex flex-grow-1 justify-content-end align-items-center">
-        <button class="log-in-btn">Log In</button>
-        <button class="sign-up-btn">Sign Up</button>
+        <button (click)="pageRouter('/signIn')" class="log-in-btn">Log In</button>
+        <button (click)="pageRouter('/signUp')" class="sign-up-btn">Sign Up</button>
     </div>
 
     <div class="profile d-flex align-items-center justify-content-center">
