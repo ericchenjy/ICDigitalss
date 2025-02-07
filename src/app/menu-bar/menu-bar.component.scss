@@ -1,26 +1,90 @@
-.logo-title{
+.menu-bar{
 
-    p{
+    .logo-title{
+
+        img{
+            margin: 0;
+            padding: 0;
+            width: 26%;;
+        }
+    }
+    
+    .menu{
         margin: 0;
         padding: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: auto;
+    
+         .menu-list{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            font-size: 28px;
+            color: var(--8-colour);
+            width: 100%;
+    
+             li{
+                margin: 0 8%;
+                cursor: pointer;
+             }
+
+             li:hover{
+                font-weight: 500;
+             }
+        }
     }
+
+    .auth-section{
+    
+        button{
+            height: 32px;
+            width: 100px;
+            border-radius: 12px;
+            border: none;
+            font-weight:600;
+            margin: 0 0.5rem;
+        }
+
+        button:hover{
+            opacity: 70%;
+        }
+    
+        .log-in-btn{
+            color: var(--1-colour);
+            background-color: var(--7-colour);
+        }
+    
+        .sign-up-btn{
+            color: var(--7-colour);
+            background-color: var(--2-colour);
+    
+        }
+        
+    }
+
+    .profile{
+
+        margin: 0 0.5rem;
+        
+
+        img{
+            width: 70%;
+            fill: var(--7-colour);
+        }
+
+
+        img:hover{
+            opacity: 70%;
+            cursor: pointer;
+        }
+    
+
+    }
+
 }
 
-.menu{
-    margin: 0;
-    padding: 0;
-    width: 70%;
 
-     .menu-list{
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        font-size: 26px;
-        width: 100%;
 
-         li{
-            margin: 0 3%;
-         }
-    }
-}
+
 
